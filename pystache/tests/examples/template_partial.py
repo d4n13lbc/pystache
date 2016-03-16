@@ -5,9 +5,8 @@ TODO: add a docstring.
 """
 
 from pystache import TemplateSpec
-import time
 
-class TemplatePartial (TemplateSpec):
+class TemplatePartial(TemplateSpec):
 
     def __init__(self, renderer):
         self.renderer = renderer
