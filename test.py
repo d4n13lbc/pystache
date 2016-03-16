@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import unittest
+import unittest2 as unittest
 import xmlrunner
 
 def runner(output='python_tests_xml'):
